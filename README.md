@@ -86,15 +86,15 @@ cp .env.example .env
 
 ```env
 # LLM 配置 (至少配置一个)
-DEEPSEEK_API_KEY=your_deepseek_api_key
-ALIYUN_DASHSCOPE_API_KEY=your_aliyun_api_key
+DEEPSEEK_API_KEY=Your APIKEY
+ALIYUN_DASHSCOPE_API_KEY=Your APIKEY
 
 # 高德地图 API (必需)
-AMAP_API_KEY=your_amap_web_api_key
+AMAP_API_KEY=Your APIKEY
 
 # LangSmith 追踪 (可选)
 LANGCHAIN_TRACING_V2=false
-LANGCHAIN_API_KEY=your_langsmith_key
+LANGCHAIN_API_KEY=Your APIKEY
 LANGCHAIN_PROJECT=trip-planner-agent
 ```
 
@@ -120,7 +120,7 @@ cp .env.example .env
 
 ```env
 VITE_API_BASE_URL=http://localhost:8000
-VITE_AMAP_KEY=your_amap_js_api_key
+VITE_AMAP_KEY=Your APIKEY
 ```
 
 > 注意：高德地图需要分别申请 Web API Key (后端) 和 JS API Key (前端)
