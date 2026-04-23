@@ -1,0 +1,38 @@
+# Core
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# FastAPI
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.9
+sse-starlette>=2.0.0
+
+# LangChain & LangGraph
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-chroma>=0.1.0
+
+# Vector Store
+chromadb>=0.5.0
+
+# LLM Providers
+dashscope>=1.20.0  # 阿里云百炼
+
+# HTTP Client
+httpx>=0.27.0
+aiohttp>=3.10.0
+requests>=2.31.0
+
+# Utilities
+python-dateutil>=2.8.2
+loguru>=0.7.0
+tenacity>=8.2.0  # 重试机制
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
